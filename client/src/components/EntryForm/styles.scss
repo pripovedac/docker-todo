@@ -1,0 +1,39 @@
+@import '../../styles/settings';
+
+.entry-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+
+  input {
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 0.8rem;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    outline: none;
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  button {
+    padding: 0.8rem 1.2rem;
+    background-color: $primary-color;
+    color: white;
+    border: 1px solid transparent;
+    outline: none;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: all 200ms;
+
+    &:hover {
+      background-color: white;
+      color: $primary-color;
+      border: 1px solid $primary-color;
+      cursor: pointer;
+    }
+  }
+}

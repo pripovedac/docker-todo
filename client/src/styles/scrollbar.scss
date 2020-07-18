@@ -1,0 +1,32 @@
+
+@import './settings';
+
+$thumb-color: $primary-color;
+$scrollbar-color: #f1f1f1;
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+// Track
+::-webkit-scrollbar-track {
+  margin-right: 100px;
+  background: $scrollbar-color;
+  border-radius: 10px;
+}
+
+// Handle
+::-webkit-scrollbar-thumb {
+  background: $thumb-color;
+  border-radius: 10px;
+}
+
+// Handle on hover
+::-webkit-scrollbar-thumb:hover {
+  background: darken($thumb-color, 15%);
+}
+
+// For Mozzila
+* {
+  scrollbar-width: thin;
+}
