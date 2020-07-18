@@ -6,3 +6,11 @@ This is my first application using **Docker**, so don't expect anything special.
 Also, my stronger suite is working on the frontend side. Bear that in mind when inspecting the `server` code.
 
 But, gotta admit I do feel kinda proud of this little guy here. :)
+
+## Prerequisites
+
+Well... [Docker](https://docs.docker.com/engine/install/ubuntu/).
+
+## Running
+
+`docker-compose up --build`
